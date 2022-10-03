@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/b3-to-domuapp/static/css/main.9b751cfc.css",
-    "main.js": "/b3-to-domuapp/static/js/main.b5570730.js",
+    "main.js": "/b3-to-domuapp/static/js/main.786b83eb.js",
     "static/js/787.57f75606.chunk.js": "/b3-to-domuapp/static/js/787.57f75606.chunk.js",
     "index.html": "/b3-to-domuapp/index.html",
     "main.9b751cfc.css.map": "/b3-to-domuapp/static/css/main.9b751cfc.css.map",
-    "main.b5570730.js.map": "/b3-to-domuapp/static/js/main.b5570730.js.map",
+    "main.786b83eb.js.map": "/b3-to-domuapp/static/js/main.786b83eb.js.map",
     "787.57f75606.chunk.js.map": "/b3-to-domuapp/static/js/787.57f75606.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b751cfc.css",
-    "static/js/main.b5570730.js"
+    "static/js/main.786b83eb.js"
   ]
 }
