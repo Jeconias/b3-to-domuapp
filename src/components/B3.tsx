@@ -5,6 +5,7 @@ import { SideStyle } from './styles/common';
 import { FileRejection, useDropzone } from 'react-dropzone';
 import { read, WorkBook } from 'xlsx';
 import { lighten } from 'polished';
+import { stopPropagation } from '../core/helpers';
 
 const ACCEPT = { text: ['text/csv'] };
 
@@ -65,7 +66,16 @@ const B3Comp = ({ className, file, onNewFile, clue }: Comp<B3Props>) => {
   return (
     <section {...getRootProps()} className={className}>
       <input {...getInputProps()} />
-      <h2>B3</h2>
+      <h2>
+        <a
+          href='https://www.investidor.b3.com.br'
+          target='_blank'
+          rel='noreferrer'
+          onClick={stopPropagation}
+        >
+          B3
+        </a>
+      </h2>
       <div>
         <p>
           {file?.name ??

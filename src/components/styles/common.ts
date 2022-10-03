@@ -12,6 +12,11 @@ export const SideStyle = css(
     padding: 0;
     color: ${theme.text.white};
     text-align: center;
+    
+    a {
+      color: ${theme.text.white};
+      text-decoration: none;
+    }
   }
 `
 );
